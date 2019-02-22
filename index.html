@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<head>
+  <title>John Balboa&#x27;s Busybus app</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="css/reset.css" rel="stylesheet" type="text/css">
+  <link href="css/stylesub.css" rel="stylesheet" type="text/css">
+  <link href="css/stylemain.css" rel="stylesheet" type="text/css">
+  <link href="images/Busybus-icon-mini_1Busybus-icon-mini.png" rel="shortcut icon" type="image/x-icon">
+</head>
+<body class="body">
+  <nav id="statusbar" class="thewholeapp container"></nav><img src="images/Base.png" id="top-bar" width="1631" alt="" class="image-18">
+  <header id="notice-for-user" class="warning">
+    <h3 class="warning-heading-for-user">Please resize your browser or hit the F12 key and toggle device toolbar to view this demo correctly.</h3>
+  </header>
+  <ul id="navigation-bar" class="navigation list-unstyled">
+    <li class="nav-area">
+      <div class="busybus-layout-grid grid-8"><img src="images/white-arrow.png" width="30" height="30" id="arrow-pic" srcset="images/white-arrow-p-500.png 500w, images/white-arrow.png 512w" sizes="100vw" alt="" class="arrow-icon-pic busybus-arrow"><img src="images/route-icon.png" width="26" height="26" id="routes-icon" alt="" class="routes-icon-pic busybus-routes">
+        <h5 id="settings" class="settings-heading busybus-settings">Settings</h5>
+        <h4 id="title" class="title-heading busybus-title">BusyBus</h4>
+        <h5 id="all-routes" class="all-routes-heading busybus-routes">All Routes</h5>
+      </div>
+    </li>
+  </ul>
+  <div id="form-block" class="form-block busybus-form">
+    <form id="Map-Form" name="BusyBus-Map-Form" data-name="Map Form" class="form"><input type="text" class="origin-field input" maxlength="256" name="Origin" data-name="Origin" placeholder="Enter Origin or use GPS" id="Origin"><input type="text" class="destination-field input" maxlength="256" name="Destination" data-name="Destination" placeholder="Enter Destination" id="Destination"></form>
+    <div class="busybus-form-done">
+      <div>Thank you! Your submission has been received!</div>
+    </div>
+    <div class="busybus-form-fail">
+      <div>Oops! Something went wrong while submitting the form.</div>
+    </div>
+  </div><img src="images/Maps-and-markers.png" width="1431" id="map" srcset="images/Maps-and-markers-p-500.png 500w, images/Maps-and-markers.png 750w" sizes="(max-width: 479px) 100vw, 475px" alt="" class="map-pic">
+  <ul id="lines-destinations-frequency" class="lines-destinations-eta-headings list-unstyled">
+    <li class="lines-destinations-frequency-grid">
+      <h5 id="bus-lines" class="buslinesheading busybus-lines">Bus Lines</h5>
+      <h5 id="destinations" class="destinationsheading">Destinations</h5>
+      <h5 id="eta" class="etaheading">ETA/Frequency</h5>
+    </li>
+  </ul>
+  <ul id="Routes-List" class="routes-list list-unstyled">
+    <li id="stop1" class="stop-one">
+      <section class="bus-data-columns row">
+        <section id="bus-numbers" class="busno col col-3 col-small-3 col-tiny-3">
+          <h1 id="busnumber" class="bus-number">60</h1>
+        </section>
+        <section id="direction-cross-streets" class="directionandcross col col-6 col-small-6 col-tiny-6">
+          <h6 id="bus-directions-text" class="bus-direction">Eastbound</h6>
+          <div class="cross-streets">Randolph / Harbor Dr.</div>
+        </section>
+        <section id="bus-eta-and-status" class="etaandfrequency col col-3 col-small-3 col-tiny-3">
+          <center><h3 id="eta-time" class="bus-eta-time">20<SPAN STYLE="font-size: 10pt">mins</SPAN></h3></center>
+          <div id="bus-status" class="bus-status-text">ON TIME</div>
+        </section>
+      </section>
+    </li>
+    <li id="stop2" class="stop-two">
+      <div class="bus-data-columns row">
+        <section id="bus-numbers" class="busno col col-3 col-small-3 col-tiny-3">
+          <h1 id="busnumber" class="bus-number">124</h1>
+        </section>
+        <section id="direction-cross-streets" class="directionandcross col col-6 col-small-6 col-tiny-6">
+          <h6 id="bus-directions-text" class="bus-direction">Eastbound</h6>
+          <div class="cross-streets">Navy Pier</div>
+        </section>
+        <section id="bus-eta-and-status" class="etaandfrequency col col-3 col-small-3 col-tiny-3">
+          <center><h3 id="eta-time" class="bus-eta-time">10<SPAN STYLE="font-size: 10pt">mins</SPAN></h3></center>
+          <div id="bus-status" class="bus-status-text">ON TIME</div>
+        </section>
+      </div>
+    </li>
+    <li id="stop3" class="stop-three">
+      <div class="bus-data-columns row">
+        <section id="bus-numbers" class="busno col col-3 col-small-3 col-tiny-3">
+          <h1 id="busnumber" class="bus-number">151</h1>
+        </section>
+        <section id="direction-cross-streets" class="directionandcross col col-6 col-small-6 col-tiny-6">
+          <h6 id="bus-directions-text" class="bus-direction">Northbound</h6>
+          <div class="cross-streets">Devon / Clark</div>
+        </section>
+        <section id="bus-eta-and-status" class="etaandfrequency col col-3 col-small-3 col-tiny-3">
+          <center><h3 id="eta-time" class="bus-eta-time">16<SPAN STYLE="font-size: 10pt">mins</SPAN></h3></center>
+          <div id="bus-status" class="bus-status-text">ON TIME</div>
+        </section>
+      </div>
+    </li>
+    <li id="stop4" class="stop-four">
+      <div class="bus-data-columns row">
+        <section id="bus-numbers" class="busno col col-3 col-small-3 col-tiny-3">
+          <h1 id="busnumber" class="bus-number">J14</h1>
+        </section>
+        <section id="direction-cross-streets" class="directionandcross col col-6 col-small-6 col-tiny-6">
+          <h6 id="bus-directions-text" class="bus-direction">Southbound</h6>
+          <div class="cross-streets">103rd / Stony Island</div>
+        </section>
+        <section id="bus-eta-and-status" class="etaandfrequency col col-3 col-small-3 col-tiny-3">
+          <center><h3 id="eta-time" class="bus-eta-time">15<SPAN STYLE="font-size: 10pt">mins</SPAN></h3></center>
+          <div id="bus-status" class="bus-status-text">ON TIME</div>
+        </section>
+      </div>
+    </li>
+    <li id="stop5" class="stop-five">
+      <div class="bus-data-columns row">
+        <section id="bus-numbers" class="busno col col-3 col-small-3 col-tiny-3">
+          <h1 id="busnumber" class="bus-number">124</h1>
+        </section>
+        <section id="direction-cross-streets" class="directionandcross col col-6 col-small-6 col-tiny-6">
+          <h6 id="bus-directions-text" class="bus-direction">Southbound</h6>
+          <div class="cross-streets">Navy Pier</div>
+        </section>
+        <section id="bus-eta-and-status" class="etaandfrequency col col-3 col-small-3 col-tiny-3">
+          <center><h3 id="eta-time" class="bus-eta-time">10<SPAN STYLE="font-size: 10pt">mins</SPAN></h3></center>
+          <div id="bus-status" class="bus-status-text">ON TIME</div>
+        </section>
+      </div>
+    </li>
+    <li id="stop6" class="stop-six">
+      <div class="bus-data-columns row">
+        <section id="bus-numbers" class="busno col col-3 col-small-3 col-tiny-3">
+          <h1 id="busnumber" class="bus-number">6x</h1>
+        </section>
+        <section id="direction-cross-streets" class="directionandcross col col-6 col-small-6 col-tiny-6">
+          <h6 id="bus-directions-text" class="bus-direction">Reroute</h6>
+          <div class="cross-streets">Jackson Park Express</div>
+        </section>
+        <section id="bus-eta-and-status" class="etaandfrequency col col-3 col-small-3 col-tiny-3">
+          <h3 id="eta-time" class="bus-eta-time">N/A</h3>
+        </section>
+      </div>
+    </li>
+    <li id="stop7" class="stop-seven">
+      <div class="bus-data-columns row">
+        <section id="bus-numbers" class="busno col col-3 col-small-3 col-tiny-3">
+          <h1 id="busnumber" class="bus-number">4</h1>
+        </section>
+        <section id="direction-cross-streets" class="directionandcross col col-6 col-small-6 col-tiny-6">
+          <h6 id="bus-directions-text" class="bus-direction">Out of service</h6>
+          <div class="cross-streets">Cottage Grove</div>
+        </section>
+        <section id="bus-eta-and-status" class="etaandfrequency col col-3 col-small-3 col-tiny-3">
+          <center><h3 id="eta-time" class="bus-eta-time">12:00<SPAN STYLE="font-size: 10pt">am</SPAN></h3></center>
+          <div id="bus-status" class="bus-status-text">Resumes</div>
+        </section>
+      </div>
+    </li>
+    <li id="stop8" class="stop-eight">
+      <div class="bus-data-columns row">
+        <section id="bus-numbers" class="busno col col-3 col-small-3 col-tiny-3">
+          <h1 id="busnumber" class="bus-number">20</h1>
+        </section>
+        <section id="direction-cross-streets" class="directionandcross col col-6 col-small-6 col-tiny-6">
+          <h6 id="bus-directions-text" class="bus-direction">Out of service</h6>
+          <div class="cross-streets">Madison</div>
+        </section>
+        <section id="bus-eta-and-status" class="etaandfrequency col col-3 col-small-3 col-tiny-3">
+          <center><h3 id="eta-time" class="bus-eta-time">12:00<SPAN STYLE="font-size: 10pt">am</SPAN></h3></center>
+          <div id="bus-status" class="bus-status-text">Resumes</div>
+        </section>
+      </div>
+    </li>
+    <li id="stop9" class="stop-nine">
+      <div class="bus-data-columns row">
+        <section id="bus-numbers" class="busno col col-3 col-small-3 col-tiny-3">
+          <h1 id="busnumber" class="bus-number">157</h1>
+        </section>
+        <section id="direction-cross-streets" class="directionandcross col col-6 col-small-6 col-tiny-6">
+          <h6 id="bus-directions-text" class="bus-direction">Out of service</h6>
+          <div class="cross-streets">Streeterville / Taylor</div>
+        </section>
+        <section id="bus-eta-and-status" class="etaandfrequency col col-3 col-small-3 col-tiny-3">
+          <center><h3 id="eta-time" class="bus-eta-time">6:00<SPAN STYLE="font-size: 10pt">am</SPAN></h3></center>
+          <div id="bus-status" class="bus-status-text">Resumes</div>
+        </section>
+      </div>
+    </li>
+  </ul>
+</body>
+</html>
