@@ -79,7 +79,7 @@ img {
 .body {
   display: block;
   height: 0px;
-  max-width: 475px;
+  max-width: 375px;
   clear: none;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#004087), to(#004087));
   background-image: linear-gradient(180deg, #004087, #004087);
@@ -435,7 +435,7 @@ img {
 }
 
 .container-2 {
-  padding-right: 30px;
+  padding-right: 0px;
   padding-left: 0px;
 }
 
@@ -513,8 +513,8 @@ img {
 }
 
 .thewholeapp {
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 0px;
+  padding-left: 0px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#13377e), to(#13377e));
   background-image: linear-gradient(180deg, #13377e, #13377e);
 }
@@ -929,7 +929,7 @@ img {
     background-image: linear-gradient(180deg, #004087, #004087);
   }
   .body {
-    max-width: 475px;
+    max-width: 375px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#004087), to(#004087));
     background-image: linear-gradient(180deg, #004087, #004087);
     text-align: left;
@@ -1257,7 +1257,7 @@ img {
 
 @media (max-width: 767px) {
   .body {
-    max-width: 475px;
+    max-width: 375px;
   }
   .column {
     display: -webkit-box;
@@ -1412,7 +1412,7 @@ img {
     padding-bottom: 0px;
   }
   .container {
-    height: 20px;
+    height: 0px;
   }
   .text-span {
     color: #fff;
@@ -1423,7 +1423,7 @@ img {
   }
   .body {
     display: block;
-    max-width: 400px;
+    max-width: 375px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#004087), to(#004087));
     background-image: linear-gradient(180deg, #004087, #004087);
     font-family: Sfprotext, Arial, sans-serif;
@@ -1589,7 +1589,7 @@ img {
     display: -ms-grid;
     display: grid;
     grid-auto-columns: 1fr;
-    grid-column-gap: 0px;
+    grid-column-gap: 16px;
     grid-row-gap: 16px;
     grid-template-areas: ". . . . .";
     -ms-grid-columns: 0.5fr 0px 1fr 0px 1.5fr 0px 1fr 0px 0.5fr;
